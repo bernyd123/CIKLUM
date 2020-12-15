@@ -75,7 +75,7 @@ table 50100 Reward
     // "OnDelete" trigger executes when a record in the table is deleted.
     trigger OnDelete();
     begin
-        Error('You are not allowed to delete rewards.');
+        Error('You''re not allowed 2 delete any rewards.');
     end;
 
     // "OnRename" trigger executes when a record in a primary key field is modified.
