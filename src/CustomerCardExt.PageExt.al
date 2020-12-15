@@ -33,6 +33,13 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
                 RunObject = page "Reward List";
                 image = CashFlow;
             }
+            action("My Report")
+            {
+                ApplicationArea = All;
+                ToolTip = 'This will run my custom Report.';
+                Image = Report;
+                RunObject = report MyNewReport;
+            }
         }
     }
 }
