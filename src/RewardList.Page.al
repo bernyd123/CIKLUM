@@ -5,6 +5,7 @@ page 50102 "Reward List"
 
     // The page will be part of the "Lists" group of search results.
     UsageCategory = Lists;
+    ApplicationArea = All;
 
     // The data of this page is taken from the "Reward" table.
     SourceTable = Reward;
