@@ -34,18 +34,21 @@ page 50101 "Reward Card"
                     ToolTip = 'The Description of the Reward.';
                 }
 
-                field("Discount Percentage"; "Discount Percentage")
+                field("Discount Percentage"; Rec."Discount Percentage")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'The precentage Discount';
                 }
-                field("Minimum Purchase"; "Minimum Purchase")
+                field("Minimum Purchase"; Rec."Minimum Purchase")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'The Minimum Purchase.';
                 }
 
-                field("Last Modified Date"; "Last Modified Date")
+                field("Last Modified Date"; Rec."Last Modified Date")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'The last date the record was modified.';
                 }
             }
         }

@@ -31,9 +31,10 @@ page 50102 "Reward List"
                     ToolTip = 'This is a message.';
                 }
 
-                field("Discount Percentage"; "Discount Percentage")
+                field("Discount Percentage"; Rec."Discount Percentage")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'This is the tooltip for Discount Percentage.';
                 }
             }
         }
