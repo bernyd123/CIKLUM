@@ -19,15 +19,16 @@ page 50102 "Reward List"
         {
             repeater(Rewards)
             {
-                field("Reward ID"; "Reward ID")
+                field("Reward ID"; Rec."Reward ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the level of reward that the customer has at this point.';
                 }
 
-                field(Description; Description)
+                field(Description; Rec.Description)
                 {
                     ApplicationArea = All;
+                    ToolTip = 'This is a message.';
                 }
 
                 field("Discount Percentage"; "Discount Percentage")

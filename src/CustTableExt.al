@@ -16,9 +16,8 @@ tableextension 50103 "Customer Ext" extends Customer
 
                 // If the "Reward ID" changed and the new record is blocked, an error is thrown. 
                 if (Rec."Reward ID" <> xRec."Reward ID") and
-                    (Rec.Blocked <> Blocked::" ") then begin
-                    Error('Cannot update the rewards status of a blocked customer.')
-                end;
+                    (Rec.Blocked <> Blocked::" ") then
+                    Error('Cannot update the rewards status of a blocked customer.');
             end;
         }
     }
